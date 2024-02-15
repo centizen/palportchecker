@@ -2,7 +2,7 @@
 
 ## Why?
 
-Palworld's server uses UDP packets to communicate between your game server and the players clients. This means that regular open port checking tools are unable to properly detect if your port is open or not. Most tools and sites make use of TCP packets, which your server will happily ignore.
+Palworld's server uses UDP packets to communicate between your game server and the players clients. This means that regular open port checking tools are unable to properly detect if your port is open or not. Most tools and sites make use of TCP packets, which your server will happily ignore. For more information, check out https://nmap.org/book/scan-methods-udp-scan.html
 
 That is why when you scan your port with a regular checker, it will almost always come back as open-filtered. This tells you that the port is either open, or it's not. Real helpful.
 
