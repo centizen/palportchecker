@@ -20,7 +20,7 @@ def sendpacket(payload, server_address, server_port):
     finally:
         udp_socket.close()
 
-server_domain = input("Type or Paste your External IP Address or Hostname\t")
+server_domain = input("Type or Paste your External IP Address or Hostname:\t")
 server_port = int(input("Type or Paste your servers port (Default: 8211):\t"))
 magic_bytes = [0x09, 0x08, 0x00, 0x08, 0xb4, 0xb5, 0x09, 0xb2,
                   0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
