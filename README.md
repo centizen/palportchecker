@@ -12,7 +12,7 @@ This script will send a specially crafted UDP packet to your server, which if ev
 
 You can access an interactive jupyter notebook for this script at:
 
-https://colab.research.google.com/drive/1qAkIcJWS9YFH_UcGNPYG2e2yJpNj1BW_?usp=sharing
+https://colab.research.google.com/drive/1nBvIUY1Xb6H_2oo0y-1ErrtIZdOG_A0g?usp=sharing
 
 ## Disclaimer
 
