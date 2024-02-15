@@ -21,3 +21,13 @@ There really isn't any way this can cause problems, but if it does, it's on you.
 For game version 1.4.1
 
 Future game versions may break compatibility with this script.
+
+## Why isn't my server working?
+
+- Make sure your port forwarding rule is for UDP, or TCP/UDP. A TCP only Port Forward will not work
+- Make sure that your external IP/WAN IP you get on your router matches what you get from a checker like icanhazip.com. If it doesn't match, you are behind an additional router and will need to get that sorted out for this to work.
+- Make sure you have assigned a static IP to your server and configured the port forwarding rule to that
+- Make sure you have also opened the ports in Windows Firewall, nftables, iptables or whatever firewall your OS includes
+- Check to make sure your server is actually listening on the expected port by running "netstat -ano" (command is the same on both Windows and linux) and seeing if it comes up in the list
+- The only port you actually need to focus on while troubleshooting is the main game port (default 8211). You can ignore all the rest of them; 7777, 27015-6 and 25575 are used for other services.
+- Make sure you aren't running any of those stupid VPN services like NordVPN or SurfShark on the PC you are running your server on 
